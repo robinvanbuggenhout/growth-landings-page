@@ -1,0 +1,21 @@
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2px 15px;
+    color: #214DE3;
+    font-size: 1em;
+    display: inline-block;
+    border: 2px solid #214DE3;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background: rgba(33, 77, 227, .2);
+}

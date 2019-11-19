@@ -1,0 +1,28 @@
+.hamburger-icon {
+    height: 22px;
+    width: 40px;
+    display: flex;
+    justify-self: flex-end;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+}
+
+.hamburger-icon-line {
+    height: 3px;
+    background: white;
+    position: relative;
+    top: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.hamburger-icon-line-1 { width: 100%; }
+.hamburger-icon-line-2 { width: 50%; }
+.hamburger-icon-line-3 { width: 75%; }

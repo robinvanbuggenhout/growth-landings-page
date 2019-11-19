@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #EFEFEF;
+    position: relative;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+}
+
+/*
+COLORS:
+BLUE: #214DE3
+GREEN:#1EE399
+RED: #E34B1E
+*/
+
+h1 {
+    font-family: 'gilroyextrabold', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2, h3 {
+    font-family: 'gilroyextrabold', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.125em;
+}
+
+span, p, a, .btn {
+    font-family: 'Muli', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.3125em;
+    line-height: 1.7em;
+}
