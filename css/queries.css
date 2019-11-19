@@ -1,0 +1,15 @@
+/*
+ * media queries checking wich device is active.
+ * prevents too much files from being loaded.
+ * loads in right css.
+ */
+
+
+/* phone media query */
+@import url(devices/phone.css) (min-width: 0px) and (max-width: 700px);
+
+/* tablet media query */
+@import url(devices/tablet.css) (min-width: 700px) and (max-width: 1100px);
+
+/* desktop media query */
+@import url(devices/desktop.css) (min-width: 1100px);
