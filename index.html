@@ -82,7 +82,78 @@
 
         <section id="team" class="team">
 
+            <h2>Out team</h2>
 
+            <div class="team-profiles">
+                <div class="profile-card profile-margot">
+                    <div class="left">
+                        <img class="profile-image" src="assets/img/margot-profile.png" alt="Margot profile image">
+                        <img class="profile-overlay" src="assets/img/margot-overlay.svg" alt="overlay profile image">
+                    </div>
+                    <div class="right">
+                        <strong class="profile-name">Margot Van Overtveldt</strong>
+                        <p class="profile-job">designer</p>
+                        <div class="social-accounts">
+                            <a href="https://www.margotvanovertveldt.be" target="_blank"><img class="social-media-icons-profile" src="assets/img/web-icon.svg" alt="icon portfolio site"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-card profile-kasper">
+                    <div class="left">
+                        <img class="profile-image" src="assets/img/kasper-profile.png" alt="Kasper profile image">
+                        <img class="profile-overlay" src="assets/img/kasper-overlay.svg" alt="overlay profile image">
+                    </div>
+                    <div class="right">
+                        <strong class="profile-name">Kasper Okens</strong>
+                        <p class="profile-job">designer &amp; business</p>
+                        <div class="social-accounts">
+                            <a href="https://dribbble.com/KasperOkens" target="_blank"><img class="social-media-icons-profile" src="assets/img/dribbble-icon.svg" alt="dribbble icon"></a>
+                            <a href="https://kasperokens.be" target="_blank"><img class="social-media-icons-profile" src="assets/img/web-icon.svg" alt="icon portfolio site"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-card profile-robin">
+                    <div class="left">
+                        <img class="profile-image" src="assets/img/robin-profile.png" alt="Robin profile image">
+                        <img class="profile-overlay" src="assets/img/robin-overlay.svg" alt="overlay profile image">
+                    </div>
+                    <div class="right">
+                        <strong class="profile-name">Robin Van Buggenhout</strong>
+                        <p class="profile-job">developer</p>
+                        <div class="social-accounts">
+                            <a href="https://www.behance.net/robinvanbuggenhout" target="_blank"><img class="social-media-icons-profile" src="assets/img/behance-icon.svg" alt="behance icon"></a>
+                            <a href="https://www.robinvanbuggenhout.be" target="_blank"><img class="social-media-icons-profile" src="assets/img/web-icon.svg" alt="icon portfolio site"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="data" id="data">
+
+            <div class="data-blocks">
+                <div class="data-block data-block-1">
+                    <img src="assets/img/location-icon.svg" alt="location icon">
+                    <strong class="data-number">589</strong>
+                    <p class="data-type">towns</p>
+                </div>
+                <div class="data-block data-block-2">
+                    <img src="assets/img/world-icon.svg" alt="world icon">
+                    <strong class="data-number">4</strong>
+                    <p class="data-type">languages</p>
+                </div>
+                <div class="data-block data-block-3">
+                    <img src="assets/img/group-icon.svg" alt="group icon">
+                    <strong class="data-number">13</strong>
+                    <p class="data-type">political parties</p>
+                </div>
+                <div class="data-block data-block-4">
+                    <img src="assets/img/group-icon.svg" alt="group icon">
+                    <strong class="data-number">11.4M</strong>
+                    <p class="data-type">citizens</p>
+                </div>
+            </div>
 
         </section>
 
@@ -90,12 +161,32 @@
 
     <footer id="contact" class="contact">
 
+        <h2>Keep in touch</h2>
 
+        <form name="subscribe" action="php/form.php" method="POST">
+            <input type="email" name="email" id="email" placeholder="Your email">
+            <button type="submit">Sign up</button>
+        </form>
+
+        <p>
+            You can sign up by entering your email. As
+            soon as our platform goes live, you will
+            be the first to know about it!
+        </p>
+
+        <div class="social-links">
+            <a href="#"><img src="assets/img/twitter-icon.svg" alt="twitter icon" style="position: relative; top: 7px"></a>
+            <a href="#"><img src="assets/img/instagram-icon.svg" alt="instagram icon"></a>
+            <a href="#"><img src="assets/img/facebook-icon.svg" alt="facebook icon"></a>
+        </div>
 
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/tilt.js"></script>
     <script src="scripts/scroll.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/effect.js"></script>
 </body>
 </html>

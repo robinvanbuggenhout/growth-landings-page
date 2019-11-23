@@ -34,3 +34,9 @@ span, p, a, .btn {
     font-size: 1.3125em;
     line-height: 1.7em;
 }
+
+.profile-name {
+    font-family: 'gilroyextrabold', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+}
