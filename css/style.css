@@ -9,9 +9,9 @@ body {
 
 /*
 COLORS:
-BLUE: #214DE3
-GREEN:#1EE399
-RED: #E34B1E
+BLUE:   #214DE3
+GREEN:  #1EE399
+RED:    #E34B1E
 */
 
 h1 {
@@ -35,8 +35,27 @@ span, p, a, .btn {
     line-height: 1.7em;
 }
 
+q {
+    font-family: 'gilroyextrabold', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: .85em;
+}
+
 .profile-name {
     font-family: 'gilroyextrabold', Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 1em;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px)}
+    to { opacity: 1; }
+}
+
+.fade-in-element {
+    animation: fade-in 1.5s;
+}
+
+.hidden {
+    opacity: 0;
 }

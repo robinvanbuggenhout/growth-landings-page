@@ -22,7 +22,8 @@ function scroll() {
 
 function scrollClose() {
   navbar.style.background = 'transparent';
-  navbar.style.padding = '30px 20px 0';
+  navbar.style.paddingTop = '30px';
+  navbar.style.paddingBottom = '0';
   hamburgerLine1.style.background = '#EFEFEF';
   hamburgerLine2.style.background = '#EFEFEF';
   hamburgerLine3.style.background = '#EFEFEF';
@@ -30,7 +31,8 @@ function scrollClose() {
 
 function scrollOpen() {
   navbar.style.background = '#EFEFEF';
-  navbar.style.padding = '15px 20px';
+  navbar.style.paddingTop = '15px';
+  navbar.style.paddingBottom = '15px';
   hamburgerLine1.style.background = '#E34B1E';
   hamburgerLine2.style.background = '#E34B1E';
   hamburgerLine3.style.background = '#E34B1E';
