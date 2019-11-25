@@ -20,14 +20,14 @@ function open() {
   for (let i = 0; i < links.length; i++) {
     setTimeout(() => {
       links[i].style.opacity = '1';
-    }, (i+1) * 150);
+    }, (i+1) * 100);
   }
 
   state = false;
 }
 
 function close() {
-  menu.style.transitionDelay = '1s';
+  menu.style.transitionDelay = '.8s';
   menu.style.transform = 'translateX(100%)';
 
   lineOne.style.transform = 'rotate(0deg) translateY(0)';
@@ -39,7 +39,7 @@ function close() {
   for (let i = 0; i < links.length; i++) {
     setTimeout(() => {
       links[i].style.opacity = '0';
-    }, (i+1) * 150);
+    }, (i+1) * 100);
   }
 
   state = true;

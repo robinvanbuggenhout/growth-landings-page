@@ -34,11 +34,11 @@ header {
     transform: translateX(100%);
     right: 0;
     padding: 100px 0;
-    -webkit-transition: all .6s;
-    -moz-transition: all .6s;
-    -ms-transition: all .6s;
-    -o-transition: all .6s;
-    transition: all .6s;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
     overflow: hidden;
 }
 
@@ -73,11 +73,11 @@ header {
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-    -webkit-transition-delay: .8s;
-    -moz-transition-delay: .8s;
-    -ms-transition-delay: .8s;
-    -o-transition-delay: .8s;
-    transition-delay: .8s;
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -ms-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    transition-delay: .4s;
 }
 
 .heading-information {
