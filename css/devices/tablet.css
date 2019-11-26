@@ -2,12 +2,17 @@ header {
     height: 100vh;
     min-height: 500px;
     max-height: 700px;
-    background-image: url("../../assets/img/mobile-header-shape.svg");
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center right;
-    background-repeat: no-repeat;
     top: 0;
+}
+
+.desktop-header-shape {
+    background-image: url("../../assets/img/desktop-header-shape.svg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100vh + 600px);
+    width: calc(400px * 1.2);
 }
 
 .mobile-navigation {
@@ -54,7 +59,7 @@ header {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 20px 0;
+    padding: 30px 50px 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -73,7 +78,8 @@ header {
 .heading-information {
     position: relative;
     top: 20vh;
-    padding: 0 20px;
+    padding: 0 50px;
+    width: 60%;
 }
 
 p {
@@ -87,18 +93,35 @@ p {
 }
 
 section {
-    padding: 100px 20px 0;
-    height: 100vh;
-    min-height: 500px;
-    max-height: 700px;
+    padding: 100px 50px 0;
+
 }
 
-section.what { text-align: center; }
-section.what p { text-align: left; }
 section.what h2 {
     text-align: left;
     margin: 0;
 }
+
+section.what .what-information {
+    margin-top: 20px;
+    width: 90%;
+    position: relative;
+    z-index: 5;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0px 20px 30px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0px 20px 30px rgba(0, 0, 0, .2);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, .2);
+}
+
+section.what p {
+    position: relative;
+    z-index: 5;
+    text-align: left;
+}
+
 
 .btn-team {
     margin: 50px auto 0;
@@ -115,10 +138,10 @@ section.team h2 { text-align: center; }
     align-content: space-between;
     align-items: center;
     min-height: 150px;
-    height: 20vh;
+    height: 25vh;
     max-height: 300px;
     min-width: 250px;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .left {
@@ -156,13 +179,17 @@ section.team h2 { text-align: center; }
     margin-top: 3px;
 }
 
+section.data h2 {
+    text-align: center;
+}
+
 .data-blocks {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     justify-items: center;
-    width: 330px;
-    margin: 0 auto;
+    width: 500px;
+    margin: 50px auto 0;
 }
 
 div.data-block-2 {
@@ -203,8 +230,8 @@ div.data-block-4 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    height: 150px;
-    width: 150px;
+    height: 235px;
+    width: 235px;
     -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0px 20px 30px rgba(0, 0, 0, .2);
     box-shadow: 0px 20px 30px rgba(0, 0, 0, .2);
@@ -213,9 +240,13 @@ div.data-block-4 {
     animation: data-block 3.5s infinite;
 }
 
+.data-icon {
+    width: 25px;
+}
+
 .data-number {
     font-family: 'gilroyextrabold', Arial, Helvetica, sans-serif;
-    font-size: 2.5em;
+    font-size: 3.5em;
     color: #E34B1E;
     display: block;
     margin-top: 5px;
@@ -226,7 +257,7 @@ div.data-block-4 {
     color: #E34B1E;
     opacity: .5;
     margin: 0;
-    font-size: .9em;
+    font-size: 1em;
     line-height: 1em;
 }
 
@@ -259,10 +290,17 @@ div.data-block-4 {
 }
 
 footer {
-    padding: 100px 20px 0;
+    padding: 100px 50px 0;
     height: 100vh;
     min-height: 400px;
     max-height: 500px;
+}
+
+footer p {
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer h2 { text-align: center; }
@@ -274,10 +312,11 @@ footer h2 { text-align: center; }
     padding: 10px;
     box-sizing: border-box;
     width: 330px;
-    margin-bottom: 10px;
     opacity: 0;
     position: absolute;
-    margin-top: 50px;
+    margin: 25px 0 10px -165px;
+    z-index: 5;
+    left: 50%;
     transform: translateY(10px);
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -305,6 +344,7 @@ form:hover + .gdpr-message {
 form {
     margin: 0 auto;
     width: 100%;
+    max-width: 500px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
