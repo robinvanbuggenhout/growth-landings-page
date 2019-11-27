@@ -16,7 +16,8 @@ header {
     flex-flow: column wrap;
     justify-content: space-evenly;
     z-index: 10;
-    background: linear-gradient(-180deg, #1EE399, #214DE3);
+    /* background: linear-gradient(-180deg, #1EE399, #214DE3); */
+    background: linear-gradient(-180deg, #E24B1D, #444CBD);
     text-align: center;
     top: 0;
     bottom: 0;

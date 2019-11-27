@@ -6,6 +6,7 @@ let links = document.querySelectorAll('.mobile-link');
 let lineOne = document.querySelector('.hamburger-icon-line-1');
 let lineTwo = document.querySelector('.hamburger-icon-line-2');
 let lineThree = document.querySelector('.hamburger-icon-line-3');
+let logo = document.querySelector('.logo-container');
 let state = true;
 
 function open() {
@@ -16,6 +17,9 @@ function open() {
   lineTwo.style.opacity = '0';
   lineThree.style.transform = 'rotate(-45deg) translateY(-12.5px)';
   lineThree.style.width = '100%';
+
+  logo.style.transitionDelay = '0s';
+  logo.style.opacity = '0';
 
   for (let i = 0; i < links.length; i++) {
     setTimeout(() => {
@@ -35,6 +39,9 @@ function close() {
   lineTwo.style.opacity = '1';
   lineThree.style.transform = 'rotate(0deg) translateY(0)';
   lineThree.style.width = '75%';
+
+  logo.style.transitionDelay = '1s';
+  logo.style.opacity = '1';
 
   for (let i = 0; i < links.length; i++) {
     setTimeout(() => {
