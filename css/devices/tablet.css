@@ -123,6 +123,9 @@ section.what p {
     text-align: left;
 }
 
+.what-right {
+    display: none;
+}
 
 .btn-team {
     margin: 50px auto 0;

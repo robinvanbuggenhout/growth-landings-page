@@ -35,6 +35,42 @@ span, p, a, .btn {
     line-height: 1.7em;
 }
 
+.btn-signup {
+    font-size: 1em;
+    font-family: 'Muli', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #222222;
+    border: 2px solid #222222;
+    padding: 5px 10px;
+    height: 45px;
+    width: 30%;
+    background: transparent;
+    position: relative;
+    left: -2px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+ }
+
+@media only screen and (min-width: 700px) {
+    .btn-signup {
+        text-align: center;
+    }
+}
+
+form button:hover {
+    background: rgba(33, 77, 227, .3);
+}
+
 q {
     font-family: 'gilroyextrabold', Arial, Helvetica, sans-serif;
     font-weight: bold;

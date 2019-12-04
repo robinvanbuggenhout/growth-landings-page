@@ -10,6 +10,10 @@ header {
     top: 0;
 }
 
+#fb-root {
+    display: none;
+}
+
 .mobile-navigation {
     position: fixed;
     display: flex;
@@ -89,9 +93,14 @@ p {
 
 section {
     padding: 100px 20px 0;
-    height: 100vh;
     min-height: 500px;
     max-height: 700px;
+}
+
+@media only screen and (max-width: 370px) {
+    header {
+        min-height: 800px;
+    }
 }
 
 section.what { text-align: center; }
@@ -101,12 +110,16 @@ section.what h2 {
     margin: 0;
 }
 
+.what-right {
+    display: none;
+}
+
 .btn-team {
     margin: 50px auto 0;
 }
 
 section.team { position: relative; }
-section.team h2 { text-align: center; }
+section.team h2 { text-align: left; }
 
 .profile-card {
     display: flex;
@@ -143,6 +156,8 @@ section.team h2 { text-align: center; }
     right: 0;
     bottom: 0;
 }
+
+q { display: none; }
 
 .right p {
     margin: 0;
@@ -266,7 +281,7 @@ footer {
     max-height: 500px;
 }
 
-footer h2 { text-align: center; }
+footer h2 { text-align: left; }
 
 .gdpr-message {
     background:  whitesmoke;
@@ -355,5 +370,5 @@ form button {
     bottom: 30px;
     width: 100%;
     max-width: 350px;
-    margin: 100px auto 0
+    margin: 50px auto 0
 }
