@@ -118,12 +118,19 @@ section.what p {
     width: 45%;
 }
 
+@keyframes logo-what {
+    0% {transform: scale(1);}
+    10% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+}
+
 .what-right {
     position: absolute;
     right: 30px;
     top: 100px;
     -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, .3));
     filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, .3));
+    animation: 3s logo-what infinite;
 }
 
 .btn-team {

@@ -1,12 +1,13 @@
 .btn {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 2px 15px;
-    color: #214DE3;
+    padding: 7px 20px;
     font-size: 1em;
     opacity: 1;
     display: inline-block;
-    border: 2px solid #214DE3;
+    color: white;
+    background: linear-gradient(45deg, #214DE3 , #E34B1E);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 5px;
@@ -18,5 +19,25 @@
 }
 
 .btn:hover {
-    background: rgba(33, 77, 227, .2);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
+    transform: scale(.95);
+}
+
+.btn-signup {
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #214DE3 , #E34B1E);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
+    padding: 10px 20px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.btn-signup:hover {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
+    transform: scale(.95);
 }
