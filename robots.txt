@@ -1,0 +1,4 @@
+# robots.txt for https://www.growthtogether.be/
+
+User-agent: *
+Disallow: /index.html
