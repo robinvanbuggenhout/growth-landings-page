@@ -1,15 +1,14 @@
 .btn {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 7px 20px;
+    padding: 2px 15px;
     font-size: 1em;
     opacity: 1;
     display: inline-block;
-    color: white;
-    background: linear-gradient(45deg, #214DE3 , #E34B1E);
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    color: #214DE3;
+    border: 2px solid #214DE3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     border-radius: 5px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -19,17 +18,21 @@
 }
 
 .btn:hover {
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
-    transform: scale(.95);
+    background: rgba(33, 77, 227, .2);
 }
 
 .btn-signup {
     border: none;
-    color: white;
+    color: #214DE3;
     text-transform: uppercase;
-    background: linear-gradient(45deg, #214DE3 , #E34B1E);
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
-    padding: 10px 20px;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 1em;
+    opacity: 1;
+    border: 2px solid #214DE3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
@@ -38,6 +41,5 @@
 }
 
 .btn-signup:hover {
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
-    transform: scale(.95);
+    background: rgba(33, 77, 227, .2);
 }
